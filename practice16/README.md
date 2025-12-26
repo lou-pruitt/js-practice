@@ -1,13 +1,20 @@
-# factor_of_sequence
+## Igpay Atinlay
 
-Given the following function call:
-- factor_of_sequence(2);
+Build a function that will translate text into "Pig Latin" Take the first consonant and move it to the end of a word and then affix "ay" to the end of that word."
 
-And the resulting output:
-- [0,3,0,0,6,0,0,9,0,0,12];
+- Write a function that takes one parameter
+	- Parameter 1 - A string
+- The function should output your input string translated into Pig Latin
+	- Example: 
+		- `var myString = "Hello my name is Stu"`
+		- `translate(myString);
+		- Output - `"ellohay ymay ameya siay tusay"`
 
-Create a function definition that achieves the output with the given input. 
+#### Making it better!
 
-<a href="http://jsbin.com/jifawu/edit?html,js,output" target="_blank">Solution Set</a>
-
-
+- There are several more rules to Pig Latin, try incorporating as many as you can into your function.
+	- There are different rules for words that start with vowel sounds or silent letters for example.
+	- <a href="http://en.wikipedia.org/wiki/Pig_Latin">Here</a> is a link to an explanation of all the rules.
+- Also try maintaining capitalization of words that are capitalized in your input string.
+	- Example: 
+		- `"Hello there"` would be `"Ellohay heretay"`

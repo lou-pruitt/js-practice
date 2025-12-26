@@ -1,34 +1,18 @@
-### sort by field
+Create a function, add_arrays(), that does the following:
 
-Create a function, sort_object_list_by_field(), that does the following:
-- Takes a list of objects, and returns an array of those objects, sorted by an arbitrary property
-
-#### Input: 
-- input_array: an array of objects
-- sort_field: property to sort by
+#### Input: 2 arrays of equal size 
+- first_array, an array of numbers
+- needle array, an array of numbers
 
 #### Output: 
-- output_array, an array sorted by the given field of each object
+- output array, which has all values from the first array added to the values from the second array
 
 #### Example:
-<pre>
-var input_array = 
-[
-	{name: 'John', age:42, gender:'M'},
-	{name: 'Jack', age:34, gender:'M'},
-	{name: 'Michael',age:40, gender: 'M'},
-	{name: 'Kendra',age:48, gender:'F'}
-]</pre>
+var first_array = [3,-5,15,4];
+var second_array = [3,18,-5,-4]
 
-output = sort_object_list_by_field(input_array, age);
-console.log(output); //outputs 
-<pre>[
-	{name: 'Jack', age:34, gender:'M'},
-	{name: 'Michael',age:40, gender: 'M'},
-	{name: 'John', age:42, gender:'M'},
-	{name: 'Kendra',age:48, gender:'F'}
-]</pre>
+
+output = add_arrays(first_array,second_array);
+console.log(output); //outputs [6,13,10,0];
 
 #### Put your solution in answer.js
-
-- hint: <a href="http://www.stoimen.com/blog/2010/07/09/friday-algorithms-javascript-bubble-sort/" target="_blank">Here</a> is an example of a bubble sort in both psuedo-code and javascript which can serve as the basis of your sorting function.

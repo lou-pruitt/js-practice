@@ -1,11 +1,14 @@
-## One to Multi
+## math combo
 
-Build a function that sorts an array into a multidimensional array grouped by data type
+Build a function, cocococomboMath, that takes 5 numbers as parameters.  
+It:
 
-- Write a function that takes one parameter 
-	- Parameter 1 - An array of anything
-- The function should output a multidimensional array grouped by data type
-- Example: 
-	- `var myArray = ['hello', 34, true, false, 'goodbye', 56, 12, '25', true];`
-	- `groupArray(myArray);`
-	- Output - `[['hello, 'goodbye', '25'], [34, 56, 12], [true, false, true]]`
+- multiplies the 1st number x the 2nd number
+- the result of that, it adds the 3rd number
+- the result of that, it divides by the 4th number
+- the result of that, it subtracts the 5th number
+- it returns that result
+
+- example:
+  - cocococomboMath(3,2,6,3,5)
+    - Returns -1

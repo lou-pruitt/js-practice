@@ -1,6 +1,10 @@
-## FizzBuzz
+## invert positive number
 
-Build a function that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+Build a function, invertNegatives, that takes a number as a parameter, and if the number is positive, it makes it negative. If it isn't a number, it returns false
 
-- Write a function that takes no parameters
-- The function should output the numbers 1 through 100, following the rules from above
+    - invertNegatives(-5)
+    	- Returns: -5
+    - invertNegatives(4000)
+    	- Returns: -4000
+    - invertNegatives('puppies')
+    	- Returns: false

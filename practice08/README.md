@@ -1,12 +1,12 @@
-Given the following function call:
-- character_convert('the cat in the hat');
+## Total Reverse 
 
-And the resulting output:
-- "11610410132999711632105110321161041013210497116";
+Build a function that takes in an array and reverses it
 
-Create a function definition that achieves the output with the given input. 
-
-- <a href="https://www.google.com/search?q=ascii&oq=ascii&aqs=chrome..69i57j69i60j69i59j69i60j0l2.1319j1j9&sourceid=chrome&es_sm=91&ie=UTF-8" target="_blank">hint</a>
-- Optimization: How would you speed up the processing if you already encountered a value?
-
-<a href="" target="_blank">Solution Set</a>
+- Write a function that takes one parameter
+	- Parameter 1 - An array of anything
+- The function should output an array that is in reverse order from the input array
+- Example: 
+	- `var myArray = ['hello', 45, 'Bob', 'what', '23'];`
+	- `arrayReverse(myArray);`
+	- Output - `['23', 'what', 'Bob', 45, 'hello']`
+- Avoid using pre-built functions that do something similar

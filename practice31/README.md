@@ -1,14 +1,34 @@
-## math combo
+Create a function, matrix_add(), that does the following:
 
-Build a function, cocococomboMath, that takes 5 numbers as parameters.  
-It:
+#### Input: 
+- array1: a multi-dimensional array
+- array2: a multi-dimensional array
 
-- multiplies the 1st number x the 2nd number
-- the result of that, it adds the 3rd number
-- the result of that, it divides by the 4th number
-- the result of that, it subtracts the 5th number
-- it returns that result
+#### Output: 
+- output: a multi-dimensional array
 
-- example:
-  - cocococomboMath(3,2,6,3,5)
-    - Returns -1
+#### Example:
+var array1 = 
+[
+	[1,2,3],
+	[3,4,5],
+	[6,7,8]
+]
+var array2 =
+[
+	[1,2,3],
+	[1,2,3],
+	[1,2,3]
+]
+
+
+output = matrix_add(array1,array2);
+console.log(output); 
+//outputs 
+[
+	[2,4,6],
+	[4,6,8],
+	[7,9,11]
+]
+
+#### Put your solution in answer.js

@@ -1,12 +1,11 @@
-## Fitting words
+## One to Multi
 
-Build a function that takes in a string and an array of strings. The function should output an array of strings that contain the same letters as the single input string.
+Build a function that sorts an array into a multidimensional array grouped by data type
 
-- Write a function that takes two parameters
-	- Parameter 1 - A string
-	- Parameter 2 - An array of strings
-- The function should output all the words from the input array (parameter 2) that have the same letters as the first parameter.  IE 'cat' has 'c','a', and 't', and all words that have 'c','a', and 't' will be included.
-- Example:
-	- `var myArray = ['cat','caterpillar','whale','accurate','smile','cactus','cute'];`
-	- `fittingWords('cat', myArray);`
-	- Output - `['cat','caterpillar','accurate','cactus']`
+- Write a function that takes one parameter 
+	- Parameter 1 - An array of anything
+- The function should output a multidimensional array grouped by data type
+- Example: 
+	- `var myArray = ['hello', 34, true, false, 'goodbye', 56, 12, '25', true];`
+	- `groupArray(myArray);`
+	- Output - `[['hello, 'goodbye', '25'], [34, 56, 12], [true, false, true]]`

@@ -1,12 +1,13 @@
-## random number or array element
+# numeric_toggles
 
-Build a function, random_range, that takes 2 parameters, start_num and end_num.  OPTIONALLY: If start_num is an array instead (and end_num isn't specified), then it returns a random element from the array
+Given the following function call:
+- numeric_toggles(2);
 
-- 
-- Example:
-	- random_range(2,15)
-		- returns 7
-	- random_range(1,100)
-		- returns 85
-	- random_range(['a','b','c','d','e'])
-		- returns 'b'
+And the resulting output:
+- [4, 6, -9, -12, 16, 20, -25, -30];
+
+Create a function definition that achieves the output with the given input. 
+
+<a href="http://jsbin.com/kaqona/edit?html,js,output" target="_blank">Solution Set</a>
+
+

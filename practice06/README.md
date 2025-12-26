@@ -1,11 +1,16 @@
-## Numeric Spirals
+## Find the vowels
 
-Build a function that takes one parameter and prints out the Fibonacci sequence based on the input parameter. 
+- given a string, find all the vowels in the string.  Store them in a new string
+- example:
+	- parameters: "four score and seven years ago"
+	- return: "ouoeaeeeaao"
 
-- Write a function that takes one parameter
-	- Parameter 1 - A number
-- The function should output the Fibonacci sequence to the number of spaces set by parameter 1 starting from zero.
-- Example:
-	- `fibSequence(12);`
-	- Output - `0 1 1 2 3 5 8 13 21 34 55 89`
-- If you are unfamiliar with the Fibonacci sequence <a href="https://www.google.com" target="_blank">Click Here</a>
+### human-level instructions
+- create variable to store vowels
+- begin loop
+	- get each letter, one at a time
+	- compare it with each each vowel and see if it matches
+		- if it is, add it to the vowel variable
+- repeat
+
+

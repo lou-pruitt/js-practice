@@ -1,13 +1,11 @@
-# numeric_toggles
+## Numeric Spirals
 
-Given the following function call:
-- numeric_toggles(2);
+Build a function that takes one parameter and prints out the Fibonacci sequence based on the input parameter. 
 
-And the resulting output:
-- [4, 6, -9, -12, 16, 20, -25, -30];
-
-Create a function definition that achieves the output with the given input. 
-
-<a href="http://jsbin.com/kaqona/edit?html,js,output" target="_blank">Solution Set</a>
-
-
+- Write a function that takes one parameter
+	- Parameter 1 - A number
+- The function should output the Fibonacci sequence to the number of spaces set by parameter 1 starting from zero.
+- Example:
+	- `fibSequence(12);`
+	- Output - `0 1 1 2 3 5 8 13 21 34 55 89`
+- If you are unfamiliar with the Fibonacci sequence <a href="https://www.google.com" target="_blank">Click Here</a>

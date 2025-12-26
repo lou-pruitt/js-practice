@@ -1,34 +1,12 @@
-Create a function, matrix_add(), that does the following:
+Given the following function call:
+- character_convert('the cat in the hat');
 
-#### Input: 
-- array1: a multi-dimensional array
-- array2: a multi-dimensional array
+And the resulting output:
+- "11610410132999711632105110321161041013210497116";
 
-#### Output: 
-- output: a multi-dimensional array
+Create a function definition that achieves the output with the given input. 
 
-#### Example:
-var array1 = 
-[
-	[1,2,3],
-	[3,4,5],
-	[6,7,8]
-]
-var array2 =
-[
-	[1,2,3],
-	[1,2,3],
-	[1,2,3]
-]
+- <a href="https://www.google.com/search?q=ascii&oq=ascii&aqs=chrome..69i57j69i60j69i59j69i60j0l2.1319j1j9&sourceid=chrome&es_sm=91&ie=UTF-8" target="_blank">hint</a>
+- Optimization: How would you speed up the processing if you already encountered a value?
 
-
-output = matrix_add(array1,array2);
-console.log(output); 
-//outputs 
-[
-	[2,4,6],
-	[4,6,8],
-	[7,9,11]
-]
-
-#### Put your solution in answer.js
+<a href="" target="_blank">Solution Set</a>

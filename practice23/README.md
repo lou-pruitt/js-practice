@@ -1,18 +1,14 @@
-Create a function, find_factors(), that does the following:
-- Find all of the factors of a given number
+Create a function, search_array(), that does the following:
 
-#### Input: 
-- factor_number: a number to find the factors of
-
+#### Input: 2 arrays
+- haystack array, which has values to search through
+- needle array, which has values to search for 
 #### Output: 
-- output array, an array of all numbers that are a factor of factor_number
-
+- output array, which has all values in needle that are found in haystack
 #### Example:
-var factor_number = 10;
+var haystack = ['cat','dog','bird','turtle','lizard'];
+var needle = ['dog','lizard','flower','monkey','unicorn']
+var output = null;
 
-output = find_factors(factor_number);
-console.log(output); //outputs [1,2,5,10];
-
-#### Put your solution in answer.js
-
-- hint: use modulo to determine if a number is evenly divisible by another number
+output = search_array(haystack,needle);
+console.log(output); //outputs ['dog','lizard'];

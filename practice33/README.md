@@ -1,10 +1,13 @@
-## invert positive number
+# factor_of_sequence
 
-Build a function, invertNegatives, that takes a number as a parameter, and if the number is positive, it makes it negative. If it isn't a number, it returns false
+Given the following function call:
+- factor_of_sequence(2);
 
-    - invertNegatives(-5)
-    	- Returns: -5
-    - invertNegatives(4000)
-    	- Returns: -4000
-    - invertNegatives('puppies')
-    	- Returns: false
+And the resulting output:
+- [0,3,0,0,6,0,0,9,0,0,12];
+
+Create a function definition that achieves the output with the given input. 
+
+<a href="http://jsbin.com/jifawu/edit?html,js,output" target="_blank">Solution Set</a>
+
+

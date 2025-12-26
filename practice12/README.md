@@ -1,19 +1,32 @@
-# math_sequence
+## randomize array
 
-Given the following function call:
-- math_sequence(2);
+Create a function, randomizeList(), that takes an array and ranzomizes the order, without resorting to the use of any pre-existing array methods.
 
-And the resulting output:
-- [4, 6, 8, 10, 12, 14, 16, 18, 20, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5];
+#### Input:
 
-Another sample:
-- math_sequence(5);
+- inputArray: an array of anything
 
-Resulting output: 
-- [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42];
+#### Output:
 
-Create a function definition that achieves the output with the given input. 
+- outputArray, the original array, randomly arranged
 
-<a href="https://jsbin.com/hirunic/edit?js,console" target="_blank">Solution Set</a>
+#### Example:
 
+<pre>
+var inputArray = 
+[5,3,2,5,1]</pre>
 
+output = randomizeList(inputArray);
+console.log(output); //outputs
+
+<pre>[3,1,5,5,2]</pre>
+
+console.log(randomizeList(inputArray)); //outputs
+
+<pre>[1,3,5,1,2,5]</pre>
+
+#### Put your solution in answer.js
+
+- hint: Math.random() will give you a random fractional number between 0 and 1
+- hint: .pop() will allow you to take numbers off your source array as you pick them randomly
+- hint: Using pop will directly affect the length of the array

@@ -1,13 +1,13 @@
-# math computation sequences
+Bipolar Loop
 
-Given the following function call:
-- math_sequences(2,5);
+Create a single loop that simultaneously counts up on one variable, while counting down on another.  The only code inside the for loop should be a console.log that lists both variables.
 
-And the resulting output:
-- ["2+5=7", "2-5=-3", "2*5=10", "2/5=0.4"];
+#### Put your solution in answer.js
 
-Create a function definition that achieves the output with the given input. 
+- hint: You can have multiple initiators, conditionals, and incrementers/decrementers in the same <em>for</em> loop.  For example:
 
-<a href="http://jsbin.com/zebete/edit?html,js,console" target="_blank">Solution Set</a>
-
-
+```
+for(<initiator 1>,<initiator 2>; <check 1>,<check2>; <increment 1>,<increment 2>){
+	//do work
+}
+```

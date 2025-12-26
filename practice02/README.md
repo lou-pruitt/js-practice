@@ -1,12 +1,12 @@
-## Total Reverse 
+## random number or array element
 
-Build a function that takes in an array and reverses it
+Build a function, random_range, that takes 2 parameters, start_num and end_num.  OPTIONALLY: If start_num is an array instead (and end_num isn't specified), then it returns a random element from the array
 
-- Write a function that takes one parameter
-	- Parameter 1 - An array of anything
-- The function should output an array that is in reverse order from the input array
-- Example: 
-	- `var myArray = ['hello', 45, 'Bob', 'what', '23'];`
-	- `arrayReverse(myArray);`
-	- Output - `['23', 'what', 'Bob', 45, 'hello']`
-- Avoid using pre-built functions that do something similar
+- 
+- Example:
+	- random_range(2,15)
+		- returns 7
+	- random_range(1,100)
+		- returns 85
+	- random_range(['a','b','c','d','e'])
+		- returns 'b'

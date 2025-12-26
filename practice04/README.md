@@ -1,12 +1,12 @@
-## Sort
+## find middle of string
 
-Build a function that takes in an array of strings and outputs a new array with the same strings in alphabetical order. 
+Build a function, findMiddleLetters, that finds the middle of a string. If the string is an odd number of characters, it returns 1 letter. If it is an even number of characters, it returns 2 characters. It takes a string as a parameter
 
-- Write a function that takes one parameter
-	- Parameter 1 - An Array of strings
-- The function should output an array containing all the strings from the input array but in alphabetical order
 - Example:
-	-`var myArray = ['mouse', 'cat', 'dog', 'human'];`
-	- `sort(myArray);`
-	- Output - `['cat', 'dog', 'human', 'mouse']`
-- Try doing this using a **Bubble Sort**, if you are unsure what that is <a href="https://www.google.com" target="_blank">Click Here</a>
+
+  - findMiddleLetters('seven')
+    - Return: 'v'
+
+- Example:
+  - findMiddleLetters('dish')
+    - Return: 'is'

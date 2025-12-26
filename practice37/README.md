@@ -1,19 +1,5 @@
-## alternate caps
+## Recursive Numeric Spirals
 
-- given a string, create a new string with every other letter capitalized
-- example:
-	- parameters: "amazing"
-	- return: "aMaZiNg"
+Build a function that takes one parameter and prints out the Fibonacci sequence based on the input parameter. 
 
-### human-level instructions
-- create variable to store new string
-- start a loop to proceed through the string
-	- get a new letter from the string
-		- store it in a variable
-	- get the next letter from the string
-		- store it in a variable
-		- capitalize it
-	- add the regular and capitalized letters to the new string
-- repeat
-
-
+- Write a recursive fibonacci sequence without looking one up

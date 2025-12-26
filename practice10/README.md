@@ -1,13 +1,12 @@
-# permutations
+## Sort
 
-Given the following function call:
-- permutations('abc');
+Build a function that takes in an array of strings and outputs a new array with the same strings in alphabetical order. 
 
-And the resulting output:
-- ["abc", "acb", "bac", "bca", "cab", "cba"];
-
-Create a function definition that achieves the output with the given input. 
-
-<a href="http://jsbin.com/xinoro/9/edit?html,js,output" target="_blank">Solution Set</a>
-
-
+- Write a function that takes one parameter
+	- Parameter 1 - An Array of strings
+- The function should output an array containing all the strings from the input array but in alphabetical order
+- Example:
+	-`var myArray = ['mouse', 'cat', 'dog', 'human'];`
+	- `sort(myArray);`
+	- Output - `['cat', 'dog', 'human', 'mouse']`
+- Try doing this using a **Bubble Sort**, if you are unsure what that is <a href="https://www.google.com" target="_blank">Click Here</a>

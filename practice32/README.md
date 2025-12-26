@@ -1,12 +1,13 @@
-## find middle of string
+# permutations
 
-Build a function, findMiddleLetters, that finds the middle of a string. If the string is an odd number of characters, it returns 1 letter. If it is an even number of characters, it returns 2 characters. It takes a string as a parameter
+Given the following function call:
+- permutations('abc');
 
-- Example:
+And the resulting output:
+- ["abc", "acb", "bac", "bca", "cab", "cba"];
 
-  - findMiddleLetters('seven')
-    - Return: 'v'
+Create a function definition that achieves the output with the given input. 
 
-- Example:
-  - findMiddleLetters('dish')
-    - Return: 'is'
+<a href="http://jsbin.com/xinoro/9/edit?html,js,output" target="_blank">Solution Set</a>
+
+

@@ -1,14 +1,18 @@
-Create a function, search_array(), that does the following:
+## array factors
 
-#### Input: 2 arrays
-- haystack array, which has values to search through
-- needle array, which has values to search for 
-#### Output: 
-- output array, which has all values in needle that are found in haystack
-#### Example:
-var haystack = ['cat','dog','bird','turtle','lizard'];
-var needle = ['dog','lizard','flower','monkey','unicorn']
-var output = null;
+Build a function that takes one array and finds all other elements of the array that are factors of its an element
 
-output = search_array(haystack,needle);
-console.log(output); //outputs ['dog','lizard'];
+- Write a function that takes one parameter
+	- Parameter 1 - an array of numbers
+- The function should return an object with multiple arrays in it, one for each non-repeating number in the input array
+- repeated numbers should not be added twice
+- Example:
+	- `arrayFactors([4,2,8,6,3,9]);`
+	- Output - {
+		4: [2],
+		2: [],
+		8: [4,2],
+		6: [2,3],
+		3: [],
+		9: [3]
+	}

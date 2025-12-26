@@ -1,13 +1,12 @@
-# skippy_numbers
+## Fitting words
 
-Given the following function call:
-- skippy_numbers(2);
+Build a function that takes in a string and an array of strings. The function should output an array of strings that contain the same letters as the single input string.
 
-And the resulting output:
-- [2,3,5,6,8,9,11,12];
-
-Create a function definition that achieves the output with the given input. 
-
-<a href="http://jsbin.com/vacogo/edit?html,js,output" target="_blank">Solution Set</a>
-
-
+- Write a function that takes two parameters
+	- Parameter 1 - A string
+	- Parameter 2 - An array of strings
+- The function should output all the words from the input array (parameter 2) that have the same letters as the first parameter.  IE 'cat' has 'c','a', and 't', and all words that have 'c','a', and 't' will be included.
+- Example:
+	- `var myArray = ['cat','caterpillar','whale','accurate','smile','cactus','cute'];`
+	- `fittingWords('cat', myArray);`
+	- Output - `['cat','caterpillar','accurate','cactus']`
